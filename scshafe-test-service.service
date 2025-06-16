@@ -1,0 +1,7 @@
+
+[Unit]
+Description=scshafe test of systemd services
+
+[Service]
+ExecStart=/usr/bin/scshafe-test-service
+Type=simple
